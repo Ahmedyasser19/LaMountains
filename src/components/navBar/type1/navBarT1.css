@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400;500;600&display=swap');
+
+nav {
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBarMenu {
+    
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    
+}
+
+.navBarMenu li {
+    color: rgb(254, 254, 255);
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    padding-bottom: 0.2em;
+
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 115%;
+        height: 0.05rem;
+        background-color: white;
+    }
+
+}
+
+.navBarMenu2 li {
+ 
+color: rgb(67, 77, 107);
+    &::after {
+        content: "";
+        background-color: rgb(67, 77, 107);
+    }
+}
+
+a{
+   color: white;
+   text-decoration: none;
+}

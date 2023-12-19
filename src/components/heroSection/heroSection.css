@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.Hero {
+    background-image: url('../../assets/BackGroud/Hero.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position:center;
+    background-size: cover;
+
+}
+
+
+.logo{
+    border-radius: 50%;
+}
+
+.logoName{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 114.97px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(67, 78, 105);
+}
+
+.LA{
+    color: rgb(77, 77, 77);
+}
+
+
